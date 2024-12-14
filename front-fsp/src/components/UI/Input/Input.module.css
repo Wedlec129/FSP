@@ -1,0 +1,43 @@
+/* Обертка для инпута */
+.inputWrapper {
+    position: relative;
+    margin: 15px;
+}
+
+/* Стили для самого инпута */
+.input {
+    width: 40%;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9; /* Светлый фон */
+}
+
+/* Стиль при фокусировке на инпуте */
+.input:focus {
+    border-color: #008cba;
+    box-shadow: 0 0 5px rgba(0, 140, 186, 0.5);
+    color: #333;
+}
+
+/* Лейбл для инпута (если нужен) */
+.inputWrapper label {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 14px;
+    color: #008cba;
+    transition: all 0.2s ease;
+}
+
+/* Лейбл с уменьшением и синим цветом при фокусе или наличии текста */
+.input:focus + label,
+.input:not(:placeholder-shown) + label {
+    top: -20px;
+    font-size: 12px;
+    color: #008cba;
+}

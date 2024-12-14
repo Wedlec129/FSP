@@ -1,0 +1,65 @@
+# Директории node_modules и build (собранные файлы)
+node_modules/
+build/
+
+# Конфигурационные файлы
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Логи и отчеты об ошибках
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Системные файлы и IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.lock
+
+# Кэш и временные файлы
+.cache/
+dist/
+coverage/
+*.tmp
+*.temp
+
+# Файлы отчетов тестирования
+junit.xml
+test-results/
+
+# Файлы работы с Git
+.git/
+.gitignore
+.gitattributes
+
+# Файлы ОС и редакторов
+*.sublime-project
+*.sublime-workspace
+
+# Браузерные файлы
+*.gz
+*.zip
+*.tar
+*.rar
+
+# ESLint / Prettier
+.eslintcache
+.prettierignore
+
+# Локальные файлы зависимостей
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript кэш и сборка
+*.tsbuildinfo

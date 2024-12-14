@@ -1,0 +1,8 @@
+
+/* Контейнер для сетки постов */
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* 3 колонки */
+    gap: 20px; /* Отступы между элементами */
+}
+
